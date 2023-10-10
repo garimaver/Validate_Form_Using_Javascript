@@ -74,7 +74,7 @@ function validatePhone(){
         return false;
     }
   
-    if(phone.length !== 0){
+    if(phone.length > 10){
         phoneError.innerHTML= 'Phone no should be 10 digits';
         return false;
     }
